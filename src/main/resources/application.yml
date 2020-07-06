@@ -10,3 +10,6 @@ spring:
       prefix: /
       suffix: .jsp
 
+#自定义的值，通过@Value("${a}")获取
+a: dd
+
